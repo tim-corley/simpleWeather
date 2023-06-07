@@ -13,6 +13,6 @@ jobs:
       - name: Dispatch Job
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.FOOBAR_SERVICE }}
+          token: ${{ secrets.MY_TOKEN }}
           repository: tim-corley/foobarService
           event-type: trigger-job
