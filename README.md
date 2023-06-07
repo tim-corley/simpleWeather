@@ -12,3 +12,4 @@ Using this project/repo to explore GitHub Actions & Sphinx auto-docs
 
  - so far, so good!
  - making adjustments
+ - copy
