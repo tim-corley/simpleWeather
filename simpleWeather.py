@@ -156,6 +156,11 @@ def setup_gnuplot(gnuplot_proc, title, height, xmin, xmax, ymin, ymax):
 
 
 def display_current_weather():
+	"""Prints current weather summary.
+
+	Returns:
+		None
+	"""
 	summary = response["currently"]["summary"]
 	current_temp = response["currently"]["temperature"]
 	current_wind = response["currently"]["windSpeed"]
@@ -170,6 +175,11 @@ def display_current_weather():
 
 
 def display_hourly_forecast():
+	"""Prints weather forecast for each hour.
+
+	Returns:
+		None
+	"""
 	day_summary = response["hourly"]["summary"]
 
 	print()
