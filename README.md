@@ -10,8 +10,4 @@ Using this project/repo to explore GitHub Actions & Sphinx auto-docs
 
 #### Triggering Job (in Another Repo)
 
- - so far, so good!
- - making adjustments
- - copy
- - another test....
- - once more!
+ - trial & error
