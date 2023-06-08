@@ -11,3 +11,4 @@ Using this project/repo to explore GitHub Actions & Sphinx auto-docs
 #### Triggering Job (in Another Repo)
 
  - trial & error
+ - another approach
