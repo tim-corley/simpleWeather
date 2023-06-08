@@ -19,5 +19,6 @@ jobs:
           source-files: 'src/'
           destination-username: 'tim-corley'
           destination-repository: 'foobarService'
+          destination-branch: 'main'
           destination-directory: 'destination-dir/'
           commit-email: '<>'
