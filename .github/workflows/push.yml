@@ -1,0 +1,22 @@
+name: Copy & Push
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  run_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Push files to another repository
+        uses: nkoppel/push-files-to-another-repository@1.1.0
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.MY_TOKEN }}
+        with:
+          source-files: 'src/'
+          destination-username: 'tim-corley'
+          destination-repository: 'foobarService'
+          destination-directory: 'destination-dir/'
+          commit-email: '<>'
