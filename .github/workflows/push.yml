@@ -16,7 +16,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.MY_TOKEN }}
         with:
-          source-files: 'docs/'
+          source-files: 'docs/*'
           destination-username: 'tim-corley'
           destination-repository: 'foobarService'
           destination-branch: 'main'
