@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Push files to another repository
+      - name: Push Files to Other Repo
         uses: nkoppel/push-files-to-another-repository@v1.1.1
 
         env:
