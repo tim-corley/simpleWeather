@@ -26,6 +26,10 @@ jobs:
       - name: Build Documentation
         run: |
           cd docs && sphinx-apidoc -o ./source ../src && make html
+          ls -la docs
+          ls -la docs/build
+          ls -la docs/build/html
+          
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Apply doc updates
